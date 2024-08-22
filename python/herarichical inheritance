@@ -1,0 +1,15 @@
+class father():
+    def outputg(self):
+        print("i am a father")
+class child1(father):
+    def output(self):
+        print("i am a child 1")
+class child2(father):
+    def outputc(self):
+        print("i am a child2")
+c1=child1()
+c2=child2()
+c1.output()
+c1.outputg()
+c2.outputc()
+c2.outputg()
